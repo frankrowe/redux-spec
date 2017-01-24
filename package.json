@@ -1,0 +1,28 @@
+{
+  "name": "redux-spec",
+  "version": "0.0.4",
+  "description": "Specify redux store structure and generate sample data for testing.",
+  "main": "build/redux-spec.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel redux-spec.js --out-file build/redux-spec.js --presets es2015"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankrowe/redux-spec"
+  },
+  "author": "Frank Rowe <fsrowe@gmail.com> (http://frankrowe.org/)",
+  "license": "ISC",
+  "dependencies": {
+    "json-schema-faker": "0.4.0",
+    "jsonschema": "1.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.22.2",
+    "babel-preset-es2015": "6.22.0"
+  }
+}
