@@ -1,12 +1,12 @@
 {
   "name": "redux-spec",
-  "version": "0.0.4",
+  "version": "0.1.1",
   "description": "Specify redux store structure and generate sample data for testing.",
-  "main": "build/redux-spec.js",
+  "main": "lib/redux-spec.js",
   "scripts": {
     "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel redux-spec.js --out-file build/redux-spec.js --presets es2015"
+    "build": "babel src/redux-spec.js --out-file lib/redux-spec.js --presets es2015"
   },
   "keywords": [
     "redux"
