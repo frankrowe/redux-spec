@@ -2,6 +2,10 @@
 
 redux-spec is a library to validate a redux store against a json schema, and to generate sample data for testing purposes.
 
+## Installation
+
+`npm install redux-spec`
+
 ## Example
 
 ```JavaScript
